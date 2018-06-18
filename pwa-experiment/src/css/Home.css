@@ -1,0 +1,45 @@
+.background-header {
+  background-image: url("../img/Background/car-garage.jpg");
+  height: 30em;
+}
+.home-body {
+  position: sticky;
+}
+.home-card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.home-text {
+  padding: 2em;
+  font-size: 1.5em;
+  text-align: start;
+}
+.welcome h3 {
+  text-align: start;
+}
+.content {
+}
+.slogan {
+  text-align: center;
+  color: whitesmoke;
+}
+.content-clients-area {
+  padding: 1em;
+  height: 6em;
+  background-color: rgba(192, 192, 192, 0.3);
+}
+
+/* @media screen and (max-width: 992px) {
+  .navbar-button{
+    
+  }
+} */
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+  .slogan h1 {
+    font-size: 1.5em;
+  }
+}
